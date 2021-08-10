@@ -7,7 +7,7 @@
 
 it's clear that the problem base on the factorisation of N.
 
-let's find now  an easy solution.
+let's find now  an easy solution
 
 after connecting to server we get:
 
@@ -19,7 +19,7 @@ c = 7373290721518384012603108696715714033444163435512092120442505886297149465422
 hint = 571338771748514167423682983583747408415015678000205027955504564266299803503
 
 
-in order to solve the problem we will use fermat theorem:
+in order to solve this problem we will use Fermat's theorem:
 
 we have:  
 
@@ -29,7 +29,7 @@ N %(Q-1)= hint
 N-hint=K*(Q-1)
 
 
-let's use ferma theorem with                      
+let's use Fermat's theorem with                      
 
 s**(Q-1)=1+K'*Q
                                                   
@@ -38,11 +38,35 @@ s**(K*(Q-1))=1+K"*Q
        
 s**(K*(Q-1))-1=K"*Q
 
-we will pick now two small  number for s,we will get:
+or we have
 
-2**(K*(Q-1))-1=K"*Q
+K*(Q-1)=N-hint
 
-3**(K*(Q-1))-1=K"*Q
+so we will have
+
+s**(N-hint)-1=K"*Q
+
+
+
+we will pick now two small  number for s, and we get:
+
+a=2**(N-hint)-1=K"*Q
+
+b=3**(N-hint)-1=K""*Q
+
+all we have to do is to calculate the gcd of a and b to find :Q*gcd(Q",Q""):
+
+but  we have a small problem , we can't calculate the gcd  because N-hint is a big number so we will limit the domain by using modulo of N and we get:
+
+Q*gcd(Q",Q"")=gcd(a%N,b%N)
+
+finally we factorise Q*gcd(Q",Q"") to obtain Q 
+
+hear my implementation code:
+
+
+
+
 
 
                                                    
