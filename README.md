@@ -22,11 +22,22 @@ hint = 5713387717485141674236829835837474084150156780002050279555045642662998035
 
 in order to solve the problem we will use fermat theorem:
 
-we have:                                           N %(Q-1)= hint 
-                                                   N-hint=K*(Q-1)
-let's use ferma theorem with                       s**(Q-1)=1+K'*Q
-                                                   s**(K*(Q-1))=1+K"*Q
-                                                   s**(K*(Q-1))-1=K"*Q
+we have:  
+
+
+N %(Q-1)= hint 
+             
+N-hint=K*(Q-1)
+
+
+let's use ferma theorem with                      
+
+s**(Q-1)=1+K'*Q
+                                                  
+                                                  
+s**(K*(Q-1))=1+K"*Q
+       
+s**(K*(Q-1))-1=K"*Q
 
                                                    
 
