@@ -1,8 +1,7 @@
 # babycrypt
 ![image](https://user-images.githubusercontent.com/75444239/128935870-a387e98c-edd5-4fa3-a3ec-9db20415a90c.png)
 
-
-the problem
+**the problem
 
 ![image](https://user-images.githubusercontent.com/75444239/128936615-34d0a69b-9baf-48d8-8a95-dc9bb93aa22f.png)
 
@@ -38,6 +37,13 @@ s**(Q-1)=1+K'*Q
 s**(K*(Q-1))=1+K"*Q
        
 s**(K*(Q-1))-1=K"*Q
+
+we will pick now two small  number for s,we will get:
+
+2**(K*(Q-1))-1=K"*Q
+
+3**(K*(Q-1))-1=K"*Q
+
 
                                                    
 
