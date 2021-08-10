@@ -29,7 +29,7 @@ N %(Q-1)= hint
 N-hint=K*(Q-1)
 
 
-let's use Fermat's theorem with                      
+let's use Fermat's theorem:                     
 
 s**(Q-1)=1+K'*Q
                                                   
@@ -56,13 +56,13 @@ b=3**(N-hint)-1=K""*Q
 
 all we have to do is to calculate the gcd of a and b to find :Q*gcd(Q",Q""):
 
-but  we have a small problem , we can't calculate the gcd  because N-hint is a big number so we will limit the domain by using modulo of N and we get:
+but  we have a small problem , we can't calculate the gcd  because N-hint is a big number so the idea is to limit the domain by using modulo of N and we get:
 
 Q*gcd(Q",Q"")=gcd(a%N,b%N)
 
 finally we factorise Q*gcd(Q",Q"") to obtain Q 
 
-hear my implementation code:
+here my  code:
 
 ![image](https://user-images.githubusercontent.com/75444239/128941220-0fc95415-7cc2-4137-83fd-94866ebfe9bd.png)
 
