@@ -64,7 +64,8 @@ finally we factorise Q*gcd(Q",Q"") to obtain Q
 
 here's my  code:
 
-![image](https://user-images.githubusercontent.com/75444239/128941220-0fc95415-7cc2-4137-83fd-94866ebfe9bd.png)
+
+![image](https://user-images.githubusercontent.com/75444239/129054203-bef73e8a-1b9a-4041-9849-64c59ba57623.png)
 
 
 
